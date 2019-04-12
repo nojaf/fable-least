@@ -1129,6 +1129,10 @@ osenv@^0.1.4:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
 
+paket-tool@nojaf/paket-tool#master:
+  version "1.0.0"
+  resolved "https://codeload.github.com/nojaf/paket-tool/tar.gz/2a0a4e21f2fe05b4f5028532af210ff68b0cbf88"
+
 pascalcase@^0.1.1:
   version "0.1.1"
   resolved "https://registry.npmjs.org/pascalcase/-/pascalcase-0.1.1.tgz#b363e55e8006ca6fe21784d2db22bd15d7917f14"
