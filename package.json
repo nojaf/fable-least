@@ -5,11 +5,11 @@
   "license": "MIT",
   "devDependencies": {
     "fable-compiler": "^2.2.3",
-    "fable-splitter": "^2.1.7",
-    "paket-tool": "nojaf/paket-tool#master"
+    "fable-splitter": "^2.1.7"
   },
   "scripts": {
     "start": "fable-splitter App.fsx -o dist/ -w --commonjs --run",
-    "build": "fable-splitter App.fsx -o dist/ --commonjs"
+    "build": "fable-splitter App.fsx -o dist/ --commonjs",
+    "postinstall": "paket generate-load-scripts -f netstandard2.0 -t fsx"
   }
 }

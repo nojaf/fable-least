@@ -1,5 +1,11 @@
 # Smallest Fable setup
 
+## Requirements
+
+Paket should be installed as global cli tool:
+
+> dotnet tool install -g Paket
+
 ## Install
 
 > yarn
