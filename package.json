@@ -1,0 +1,15 @@
+{
+  "name": "fable-least",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "fable-compiler": "^2.2.3",
+    "fable-splitter": "^2.1.7"
+  },
+  "scripts": {
+    "start": "fable-splitter App.fsx -o dist/ -w --commonjs --run",
+    "build": "fable-splitter App.fsx -o dist/ --commonjs",
+    "postinstall": "node install.js"
+  }
+}

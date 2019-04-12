@@ -1,0 +1,7 @@
+node_modules/
+.fable/
+dist/
+paket-files/
+.paket/.store
+.paket/paket
+.paket/paket.exe
