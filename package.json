@@ -10,6 +10,6 @@
   "scripts": {
     "start": "fable-splitter App.fsx -o dist/ -w --commonjs --run",
     "build": "fable-splitter App.fsx -o dist/ --commonjs",
-    "postinstall": "paket generate-load-scripts -f netstandard2.0 -t fsx"
+    "postinstall": "paket restore && paket generate-load-scripts -f netstandard2.0 -t fsx"
   }
 }
