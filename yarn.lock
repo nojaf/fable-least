@@ -508,26 +508,26 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-fable-babel-plugins@^2.1.0:
+fable-babel-plugins@^2.2.0:
   version "2.2.0"
   resolved "https://registry.npmjs.org/fable-babel-plugins/-/fable-babel-plugins-2.2.0.tgz#2c61be1bd1afb1f03da4e66ccaa1bfecf92063a3"
   integrity sha512-4g8CIyXCILk5LLiwNPtvtrPy3YuV5eJV18SYJCZxu3A1BSKNvPGHLSg5YcFJ2zt4qmBvSkBewlQ2bVQYG+TnrQ==
 
-fable-compiler@^2.2.3:
-  version "2.2.3"
-  resolved "https://registry.npmjs.org/fable-compiler/-/fable-compiler-2.2.3.tgz#1b30ad8f2e0f2d2a970f86831b4ea626b494b608"
-  integrity sha512-cu5GJW/38PmXjmC1+f8oLEbcp63pf6dyMwrQFUWwqz1lCNuiHcfgUAS5A5M46EqHNlYBHc0v3fZcMFUFzNUeLg==
+fable-compiler@2.3.8:
+  version "2.3.8"
+  resolved "https://registry.npmjs.org/fable-compiler/-/fable-compiler-2.3.8.tgz#54c372e6e5db4db6d007fadbaa8b7423de9de71c"
+  integrity sha512-CbSIjq6l90+f/EmVqjnNzZlnk/wmcA3tNTh6g/QUqcDwwvrurIQXlDr2PJTbE0RGqHoVkJ9oOi1w+XA3KSaBMg==
 
-fable-splitter@^2.1.7:
-  version "2.1.7"
-  resolved "https://registry.npmjs.org/fable-splitter/-/fable-splitter-2.1.7.tgz#0f3cc4549dd8d8bd1407d6b1cebd4d6319dbff90"
-  integrity sha512-MUiZp83BLyeWgdfJkcMhTAmmIVQJ6YwH312KJQ7hS6balOR43DiH40ja5zbfQ4IoGqae43jdSlEapB3bFZ5qJQ==
+fable-splitter@2.1.8:
+  version "2.1.8"
+  resolved "https://registry.npmjs.org/fable-splitter/-/fable-splitter-2.1.8.tgz#0b3e9ae14a3ad490fc819523720ef77361c1e721"
+  integrity sha512-qAbkWowyZtvZI+Evy/wn8/4+Xw8n5D8s6PoFI1XVrlodl98EImc4RmG2IbaJVYC3EmShEcbjg2RGDdaC9fCWog==
   dependencies:
     "@babel/core" "^7.1.6"
     "@babel/plugin-transform-modules-commonjs" "^7.1.0"
     chalk "^2.4.1"
     chokidar "^2.0.4"
-    fable-babel-plugins "^2.1.0"
+    fable-babel-plugins "^2.2.0"
     fs-extra "^7.0.0"
 
 fill-range@^4.0.0:
